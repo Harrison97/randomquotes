@@ -55,7 +55,13 @@ html {
 }
 
 body {
-    display: table-cell;
+    display: table;
     vertical-align: middle;
     background-color: black;
+}
+
+.myButtons{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 20px;
 }

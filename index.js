@@ -52,6 +52,13 @@ $(document).ready(function(){
 		bgnum++
 	}, 10 * 1000)
 	
+	$("#tweet").on("click", function(){
+		console.log("tweeting...")
+		// var tweetLink = 
+		window.open(
+			"https://twitter.com/intent/tweet?hashtags=&text=" + "\""+data[keys[0]]+"\"" + " -" + data[keys[1]]),
+			"_blank"
+	})
 	
 })
 
