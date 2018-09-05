@@ -19,9 +19,9 @@ $(document).ready(function(){
 		$("#quoteAuthor").html("-"+data[keys[1]])
 	})
 	$("#newQuote").on("click", function(){
-		index = parseInt(Math.random()*json.length)
+		index = parseInt(Math.random()*json.quotes.length)
 		console.log(index)
-		data = json[index]
+		data = json.quotes[index]
 		if(data[keys[1]] == "") {
 			data[keys[1]] = "Unknown"
 		}
